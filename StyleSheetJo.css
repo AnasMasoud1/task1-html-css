@@ -1,0 +1,123 @@
+﻿body {
+}
+nav a:link {
+    color: dimgrey;
+}
+/*لما ادخل ع الرابط وفتحته visited*/
+nav a:visited {
+    color: blueviolet;
+}
+/*لما أشر عليه hover*/
+nav a:hover {
+    color:black;
+}
+
+nav a:active {
+    color: indigo;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+nav ul li {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+nav ul {
+    display: inline;
+}
+header {
+    display: block;
+    background-color:#393333;
+    height: 150px;
+}
+header li,ul{
+    padding-bottom:20px;
+}
+#im{
+    margin-right:20px;
+    
+}
+main {
+    /*background-color:cornflowerblue;*/
+    /* background-image: url('images/skybluebackground.jpg');*/
+    /* background-image: url('images/resbackground-color2.jpg');*/
+    background-color: darkgray;
+}
+form {
+    padding-top: 50px;
+}
+fieldset {
+    outline: 1px;
+    width: 600px;
+    height: 600px;
+    margin-left: 385px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#taa {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+#tbb {
+    margin-left: 102px;
+    padding-left: 100px;
+}
+#tcc {
+    margin-left: 70px;
+    padding-left: 100px;
+}
+#tdd {
+    margin-left: 141px;
+    padding-left: 100px;
+}
+label{
+    font-family:sans-serif;
+    font-weight:bold;
+}
+footer {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #393333;
+    padding: 20px;
+    margin-top: 0px;
+}
+    footer ul {
+        display: block;
+    }
+      /*  footer ul li {
+            list-style-type: none;
+            display: inline-block;
+        }*/
+
+.column {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.fl{
+    text-align:center;
+}
+footer ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+/*uli{
+    display:block;
+    text-decoration:none;
+    list-style-type:none;
+}*/
+#ppp {
+    text-decoration: none;
+}
+text-decoration: none;
